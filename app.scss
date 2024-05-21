@@ -1,46 +1,20 @@
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
-
-input, button, textarea, select {
-  font: inherit;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-
-#root, #__next {
-  isolation: isolate;
-}
+@use 'reset';
 
 /*
   My CSS
 */
+
 body {
+  // Layout
   display: flex;
   justify-content: center;
   align-items: center;
+
+  // Box Model
   min-height: 100vh;
-  background-color: hsl(47, 88%, 63%);
+
+  // Visual
+  background-color: hsl(47, 88%, 63%); 
 }
 
 .card {
@@ -75,11 +49,13 @@ body {
   gap: 12px;
   min-width: 100%;
   height: auto;
+  // border: 1px solid #111111;
 }
 
 .card__category {
   width: fit-content;
   height: fit-content;
+  // border: 1px solid #111111; 
   border-radius: 4px;
   padding: 4px 12px 4px 12px;
   background-color: hsl(47, 88%, 63%);
@@ -90,6 +66,7 @@ body {
 .card__date {
   width: fit-content;
   height: fit-content;
+  // border: 1px solid #111111; 
   font-size: clamp(12px, 2vw, 14px);
   font-weight: 500;
 }
@@ -97,18 +74,22 @@ body {
 .card__article-headline {
   width: auto;
   height: fit-content;
+  // border: 1px solid #111111; 
   font-size: clamp(20px, 2vw, 24px);
   font-weight: 800;
 }
 
 .card__article-headline:hover, .card__article-headline:focus {
-  color: hsl(47, 88%, 63%);
+  color:hsl(47, 88%, 63%);
   cursor: pointer;
 }
 
 .card__description {
   width: auto;
   height: fit-content;
+  // border: 1px solid #111111; 
+  // font-size: 16px;
+  //font-size: 14px;
   font-size: clamp(14px, 2vw, 16px);
   font-weight: 500;
   color: hsl(0, 0%, 50%);
@@ -121,6 +102,7 @@ body {
   gap: 12px;
   width: fit-content;
   height: fit-content;
+  // border: 1px solid #111111;
 }
 
 .card__headshot {
@@ -133,6 +115,6 @@ body {
   height: fit-content;
   font-weight: 800;
   font-size: 14px;
+  //font-size: 12px;
+  // border: 1px solid #111111;
 }
-
-/*# sourceMappingURL=app.css.map */
