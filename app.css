@@ -48,10 +48,10 @@ body {
   flex-direction: column;
   gap: 24px;
   border-radius: 20px;
-  width: clamp(327px, 90vw, 384px);
-  height: auto;
   border: 1px solid #111111;
   padding: 24px;
+  width: clamp(327px, 90vw, 384px);
+  height: auto;
   font-family: Figtree, sans-serif;
   box-shadow: 8px 8px 0px 0px #111111;
   background-color: hsl(0, 0%, 100%);
@@ -82,9 +82,9 @@ body {
   height: fit-content;
   border-radius: 4px;
   padding: 4px 12px 4px 12px;
-  background-color: hsl(47, 88%, 63%);
   font-size: clamp(12px, 2vw, 14px);
   font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
 }
 
 .card__date {
@@ -128,11 +128,11 @@ body {
   height: 32px;
 }
 
-.card_author-name {
+.card__author-name {
   width: fit-content;
   height: fit-content;
-  font-weight: 800;
   font-size: 14px;
+  font-weight: 800;
 }
 
 /*# sourceMappingURL=app.css.map */
