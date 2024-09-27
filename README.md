@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-using-flexbox-bem-jnrQoLZrrv]
 - Live Site URL: [https://hchao7.github.io/blog-preview-card/]
 
 ## My process
